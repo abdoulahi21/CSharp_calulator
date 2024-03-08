@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LICENCE3GL\\CSHARP\\Calculator_Examen\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60306340-0A15-4A9B-B0CA-B9FA2A5DA56D}|Calculator_Examen\\Calculator_Examen.csproj|d:\\licence3gl\\csharp\\calculator_examen\\calculator_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60306340-0A15-4A9B-B0CA-B9FA2A5DA56D}|Calculator_Examen\\Calculator_Examen.csproj|solutionrelative:calculator_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60306340-0A15-4A9B-B0CA-B9FA2A5DA56D}|Calculator_Examen\\Calculator_Examen.csproj|d:\\licence3gl\\csharp\\calculator_examen\\calculator_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60306340-0A15-4A9B-B0CA-B9FA2A5DA56D}|Calculator_Examen\\Calculator_Examen.csproj|solutionrelative:calculator_examen\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\LICENCE3GL\\CSHARP\\Calculator_Examen\\Calculator_Examen\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator_Examen\\Form1.cs",
+              "ToolTip": "D:\\LICENCE3GL\\CSHARP\\Calculator_Examen\\Calculator_Examen\\Form1.cs",
+              "RelativeToolTip": "Calculator_Examen\\Form1.cs",
+              "ViewState": "AQIAAAoCAAAAAAAAAIA4wPcBAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:27:31.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\LICENCE3GL\\CSHARP\\Calculator_Examen\\Calculator_Examen\\Form1.cs",
+              "RelativeDocumentMoniker": "Calculator_Examen\\Form1.cs",
+              "ToolTip": "D:\\LICENCE3GL\\CSHARP\\Calculator_Examen\\Calculator_Examen\\Form1.cs [Design]",
+              "RelativeToolTip": "Calculator_Examen\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T23:25:32.435Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
