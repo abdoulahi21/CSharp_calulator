@@ -13,7 +13,7 @@ namespace Calculator_Examen
 {
     public partial class Form1 : Form
     {
-        private Timer timer;
+        private System.Windows.Forms.Timer timer;
         private int position = 0;
         public string no1, constfun;
         // public int no2;
@@ -26,7 +26,7 @@ namespace Calculator_Examen
         private void InitializeMarquee()
         {
             label1.Text = " Developed By Groupe 7";
-            timer = new Timer();
+            timer = new System.Windows.Forms.Timer();
             timer.Interval = 50; // Interval en millisecondes
             timer.Tick += label1_Click;
             timer.Start();
@@ -463,6 +463,10 @@ namespace Calculator_Examen
                     var3 = factorial(Convert.ToInt32(textBox1.Text));
                     textBox1.Text = Convert.ToString(varn / (var3 * var2));
                     break;
+                case "expo":
+                    double number = Convert.ToDouble(no1);
+                    textBox1.Text = Convert.ToString(number * Math.Exp(Convert.ToDouble(textBox1.Text)));
+                    break;
 
 
 
@@ -514,15 +518,26 @@ namespace Calculator_Examen
             }else
             {
                 timer1.Stop();
-                /*Form2 form2 = new Form2();
-               form2.Show(); */
-                MessageBox.Show("helllllo");
+                Form2 form2 = new Form2();
+                form2.Show(); 
+               
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+
+        private void button40_Click(object sender, EventArgs e)
+        {
+            no1 = textBox1.Text;
+            textBox1.Text = "";
+            constfun = "expo";
+           /* double number = Convert.ToDouble(textBox1.Text);
+            double result = Math.Exp(number);
+            textBox1.Text = result.ToString();
+            inputstatus = false;*/
         }
 
 

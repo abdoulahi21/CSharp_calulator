@@ -93,5 +93,8 @@
   <ItemGroup>
     <None Include="Resources\kakashi.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naruto.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
